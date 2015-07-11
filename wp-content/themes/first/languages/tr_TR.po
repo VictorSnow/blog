@@ -1,0 +1,564 @@
+# Copyright (C) 2014 Takao Utsumi
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: First\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/first\n"
+"POT-Creation-Date: 2015-01-28 21:50+0900\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-02-25 23:51+0200\n"
+"Last-Translator: Erdinç Gür <admin@engelliblog.com>\n"
+"Language-Team: Erdinç Gür <iletisim@erdincgur.net>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr_TR\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: 404.php:15
+msgid "That page can&rsquo;t be found."
+msgstr "Sayfa Bulunamadı."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Aradığınız bilgiye ulaşamadık. Arama yapmayı deneyiniz?"
+
+#: archive.php:21
+#, php-format
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#: archive.php:24
+#, php-format
+msgid "Tag: %s"
+msgstr "Etiketler: %s"
+
+#: archive.php:27
+#, php-format
+msgid "Author: %s"
+msgstr "Yazar: %s"
+
+#: archive.php:30
+#, php-format
+msgid "Day: %s"
+msgstr "Gün: %s"
+
+#: archive.php:33
+#, php-format
+msgid "Month: %s"
+msgstr "Ay: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:36
+#, php-format
+msgid "Year: %s"
+msgstr "Yıl: %s"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Makale"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galeriler"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Resimler"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Videolar"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Alıntılar"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Durumlar"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Sesler"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Chat"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Arşiv"
+
+#: comments.php:28 inc/template-tags.php:110
+msgid "1 Comment"
+msgstr "1 Yorum"
+
+#: comments.php:28 inc/template-tags.php:110
+msgid "% Comments"
+msgstr "% Yorum"
+
+#: comments.php:34 comments.php:52
+msgid "Comment navigation"
+msgstr "Yorum Alanı"
+
+#: comments.php:35 comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Eski Yorumlar"
+
+#: comments.php:36 comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Yeni Yorumlar &rarr;"
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr "Yorumlara kapalı"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Dosya Bulunamadı"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk yazınızı yayınlamak için hazır mısınız? <a href=\"%1$s\">Haydi "
+"Başlayalım</a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Üzgünüz, ama aradığınız terimi bulamadık. Lütfen farklı bir kelime ile "
+"tekrar deneyiniz."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Aradığınız konuyu bulamadık maalesef. Belki aşağıda ki konular yardımcı olur."
+
+#: content-page.php:16 content-single.php:18 content.php:26
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: content.php:21 content.php:25
+msgid "<span class=\"continue-reading\">Continue reading &rarr;</span>"
+msgstr "<span class=\"continue-reading\">Devamını Oku &rarr;</span>"
+
+#: footer.php:30
+#, php-format
+msgid "Powered by <a href=\"%1$s\">%2$s</a>"
+msgstr "Altyapı <a href=\"%1$s\">%2$s</a>"
+
+#: footer.php:30
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:32
+#, php-format
+msgid "Theme by <a href=\"%1$s\">%2$s</a>"
+msgstr "Tema <a href=\"%1$s\">%2$s</a>"
+
+#: footer.php:32
+msgid "http://themehaus.net/"
+msgstr "http://themehaus.net/"
+
+#: functions.php:48
+msgid "Navigation Bar"
+msgstr "Menü Bar"
+
+#: functions.php:49
+msgid "Header Menu"
+msgstr "Üst Menü"
+
+#: functions.php:50
+msgid "Footer Menu"
+msgstr "Alt Menü"
+
+#: functions.php:108
+msgid "Sidebar"
+msgstr "Yan Menü"
+
+#: functions.php:110
+msgid "Sidebar. If none, layout would be one-column."
+msgstr "Yan Menü. Eğe hiçbiri ise. Düzen tek sutün olacaktır."
+
+#: functions.php:118
+msgid "Footer 1"
+msgstr "Alt Kısım 1"
+
+#: functions.php:120
+msgid "Left of the footer."
+msgstr "Alt Sol"
+
+#: functions.php:127
+msgid "Footer 2"
+msgstr "Alt Kısım 2"
+
+#: functions.php:129
+msgid "Center of the footer."
+msgstr "Alt Kısım Ortasında"
+
+#: functions.php:136
+msgid "Footer 3"
+msgstr "Alt Kısım 3"
+
+#: functions.php:138
+msgid "Right of the footer."
+msgstr "Alt Kısım Sağda"
+
+#: functions.php:160
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "aç"
+
+#: header.php:32
+msgid "Skip to content"
+msgstr "İçeriği atla"
+
+#: header.php:60
+msgid "Menu"
+msgstr "Menü"
+
+#: inc/customizer.php:37
+msgid "Hide Tagline"
+msgstr "Sloganı Gizle"
+
+#: inc/customizer.php:44
+msgid "Fonts"
+msgstr "Fontlar"
+
+#: inc/customizer.php:52
+msgid "Headings Font"
+msgstr "Üst Kısım Font"
+
+#: inc/customizer.php:56 inc/customizer.php:90 inc/customizer.php:166
+#: inc/customizer.php:257
+msgid "Default"
+msgstr "Varsayılan"
+
+#: inc/customizer.php:76
+msgid "Headings Font Size (%)"
+msgstr "Üst Kısım Font Boyutu (%)"
+
+#: inc/customizer.php:86
+msgid "Body Font"
+msgstr "Yazı Font"
+
+#: inc/customizer.php:109
+msgid "Body Font Size (px)"
+msgstr "Yazı Font Boyutu (px)"
+
+#: inc/customizer.php:116
+msgid "If you use Color Scheme, individual settings will be ignored."
+msgstr "Renk düzeni kullanırsanız, bireysel ayarlar göz ardı edilecektir."
+
+#: inc/customizer.php:124
+msgid "Menu Background Color"
+msgstr "Menü Arkaplan Rengi"
+
+#: inc/customizer.php:134
+msgid "Footer Background Color"
+msgstr "Alt Kısım Arkaplan Rengi"
+
+#: inc/customizer.php:144
+msgid "Link Color"
+msgstr "Bağlantı Rengi"
+
+#: inc/customizer.php:153
+msgid "Link Hover Color"
+msgstr "Ziyaret Edilmiş Bağlantı Rengi"
+
+#: inc/customizer.php:162
+msgid "Color Scheme"
+msgstr "Renk Şeması"
+
+#: inc/customizer.php:177
+msgid "Background"
+msgstr "Arkaplan"
+
+#: inc/customizer.php:178
+msgid ""
+"If you have selected a wide layout in the Layout settings, the background "
+"color/image is not displayed."
+msgstr ""
+"Düzen ayarlarında geniş bir yerleşim seçtiyseniz, arka plan rengi / resim "
+"gösterilmez."
+
+#: inc/customizer.php:184 inc/customizer.php:193
+msgid "Layout"
+msgstr "Düzen"
+
+#: inc/customizer.php:197 inc/customizer.php:634
+msgid "Boxed"
+msgstr "Kutu"
+
+#: inc/customizer.php:198 inc/customizer.php:635
+msgid "Wide"
+msgstr "Geniş"
+
+#: inc/customizer.php:208
+msgid "Header Layout"
+msgstr "Üst Düzen"
+
+#: inc/customizer.php:212 inc/customizer.php:227 inc/customizer.php:646
+#: inc/customizer.php:658
+msgid "Side"
+msgstr "Yan"
+
+#: inc/customizer.php:213 inc/customizer.php:228 inc/customizer.php:647
+#: inc/customizer.php:659
+msgid "Center"
+msgstr "Merkez"
+
+#: inc/customizer.php:223
+msgid "Footer Layout"
+msgstr "Alt Düzen"
+
+#: inc/customizer.php:237
+msgid "Disable Responsive"
+msgstr "Responsive Kapat"
+
+#: inc/customizer.php:245
+msgid "Title"
+msgstr "Başlık"
+
+#: inc/customizer.php:253
+msgid "Font"
+msgstr "Font"
+
+#: inc/customizer.php:280
+msgid "Font Weight"
+msgstr "Font Genişliği"
+
+#: inc/customizer.php:284 inc/customizer.php:694
+msgid "Bold"
+msgstr "Kalın"
+
+#: inc/customizer.php:285 inc/customizer.php:695
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/customizer.php:286 inc/customizer.php:696
+msgid "Light"
+msgstr "Hafif"
+
+#: inc/customizer.php:296
+msgid "Font Size (px)"
+msgstr "Font Boyutu (px)"
+
+#: inc/customizer.php:307
+msgid "Font Color"
+msgstr "Font Rengi"
+
+#: inc/customizer.php:317
+msgid "Letter Spacing (px)"
+msgstr "Harf Aralığı (px)"
+
+#: inc/customizer.php:328 inc/customizer.php:407
+msgid "Margin Top (px)"
+msgstr "Üst Kenar Boşluğu (px)"
+
+#: inc/customizer.php:339 inc/customizer.php:418
+msgid "Margin Bottom (px)"
+msgstr "Alt Kenar Boşluğu (px)"
+
+#: inc/customizer.php:350
+msgid "All Uppercase"
+msgstr "Tümünü Büyük Yap"
+
+#: inc/customizer.php:358
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer.php:359
+msgid ""
+"In order to use a retina logo image, you must have a version of your logo "
+"that is doubled in size."
+msgstr ""
+"Retina logo özelliğini kullanabilmek için, resiminizin iki katına kadar "
+"büyük bir resim olması gereklidir."
+
+#: inc/customizer.php:367
+msgid "Upload Logo"
+msgstr "Logu Yükle"
+
+#: inc/customizer.php:376
+msgid "Replace Title"
+msgstr "Bağlığı Değiştir"
+
+#: inc/customizer.php:386
+msgid "Retina Ready"
+msgstr "Retina Hazır"
+
+#: inc/customizer.php:396
+msgid "Add Border Radius"
+msgstr "Kenar Yumuşatma Ekle"
+
+#: inc/customizer.php:433
+msgid "Hide Navigation Bar"
+msgstr "Menü Barını Gizle"
+
+#: inc/customizer.php:443
+msgid "Hide Search"
+msgstr "Aramayı Gizle"
+
+#: inc/customizer.php:454
+msgid "Post"
+msgstr "Yazı"
+
+#: inc/customizer.php:462
+msgid "Display"
+msgstr "Ekran"
+
+#: inc/customizer.php:466 inc/customizer.php:714
+msgid "Summary"
+msgstr "Özet"
+
+#: inc/customizer.php:467 inc/customizer.php:715
+msgid "Full text"
+msgstr "Tam Yazı"
+
+#: inc/customizer.php:476
+msgid "Hide Author"
+msgstr "Yazarı Gizle"
+
+#: inc/customizer.php:486
+msgid "Hide Categories"
+msgstr "Kategorileri Gizle"
+
+#: inc/customizer.php:494
+msgid "Footer"
+msgstr "Alt Kısım"
+
+#: inc/customizer.php:495
+msgid "Only the a and br HTML tags are allowed in the footer text."
+msgstr "Alt kısımda sadece a ve br HTML etiket kullanımına izin verir."
+
+#: inc/customizer.php:503
+msgid "Footer Text"
+msgstr "Alt Kısım Yazısı"
+
+#: inc/customizer.php:512
+msgid "Hide Credit"
+msgstr "Credit Gizle"
+
+#: inc/customizer.php:520 inc/customizer.php:530
+msgid "Custom CSS"
+msgstr "Özelleştirilmiş CSS"
+
+#: inc/customizer.php:521
+msgid ""
+"Set custom Google fonts like this: Open+Sans:300,300italic|Roboto:100,900"
+msgstr ""
+"Buna benzer özel google fontları ayarların: Open+Sans:300,300italic|"
+"Roboto:100,900"
+
+#: inc/customizer.php:539
+msgid "Custom Google Fonts"
+msgstr "Google Font Özelleştir."
+
+#: inc/extras.php:47
+#, php-format
+msgid "Page %s"
+msgstr "Sayfa: %s"
+
+#: inc/template-tags.php:38
+msgid "Posts navigation"
+msgstr "Yazı Menüsü"
+
+#: inc/template-tags.php:42
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eski Yazılar"
+
+#: inc/template-tags.php:46
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Yeni yazılar <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:69
+msgid "Post navigation"
+msgstr "Menü Navigasyon"
+
+#: inc/template-tags.php:72
+msgid "Previous post"
+msgstr "Önceki yazı"
+
+#: inc/template-tags.php:72
+msgctxt "Previous post link"
+msgid "%title"
+msgstr "%title"
+
+#: inc/template-tags.php:73
+msgid "Next post"
+msgstr "Sonraki Yazı"
+
+#: inc/template-tags.php:73
+msgctxt "Next post link"
+msgid "%title"
+msgstr "%title"
+
+#: inc/template-tags.php:110
+msgid "Leave a comment"
+msgstr "Yanıtla"
+
+#: inc/template-tags.php:113
+msgid "Featured"
+msgstr "Özellikli"
+
+#: inc/template-tags.php:126 inc/template-tags.php:134
+msgid ", "
+msgstr ", "
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Arama Sonucu: %s"
+
+#. Theme URI of the plugin/theme
+msgid "http://themehaus.net/themes/first/"
+msgstr "http://themehaus.net/themes/first/"
+
+#. Description of the plugin/theme
+msgid ""
+"First is a simple yet flexible WordPress theme for blogs. From beginner "
+"bloggers to pro bloggers, it has features for everyone. First is made using "
+"responsive design, so it offers a pleasant reading experience even on "
+"tablets and smartphones. First comes with 4 widgets and 3 menus. Because the "
+"Customizer also allows you to set up custom headers and backgrounds, you can "
+"set your blog up just the way you want it."
+msgstr ""
+"İlk bloglar için basit ama esnek bir WordPress teması. Yanlısı blogcular "
+"acemi blogcular, herkes için özelliklere sahiptir. İlk duyarlı tasarımı "
+"kullanılarak yapılan, bu yüzden bile tabletler ve akıllı telefonlar üzerinde "
+"hoş bir okuma deneyimi sunuyor. İlk 4 widget'lar ve 3 menüler ile birlikte "
+"geliyor. Özelleştirici ayrıca özel başlıkları ve arka kurmanızı sağlar, "
+"çünkü sizin blog bunu istediğiniz gibi ayarlayabilirsiniz."
+
+#. Author of the plugin/theme
+msgid "Takao Utsumi"
+msgstr "Takao Utsumi"
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar"
+msgstr "Yan Menü Yok"
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "Tam Genişlik"

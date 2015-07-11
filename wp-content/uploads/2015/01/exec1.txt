@@ -1,0 +1,38 @@
+<?php
+	if($db = new SQLite3('C:/Program Files/Thunder/Profiles/Taskdb.dat'))
+	{
+		$tableNames = $db->query("select name from sqlite_master where type='table' order by name");
+		$table = "";
+		while ($row = $tableNames->fetchArray()) {
+    		if(strpos($row['name'],"superspeed") !== false)
+			{
+				$table = $row['name'];
+				break;
+			}
+		}
+		echo $table."\n";
+
+		$results = $db->query('select * from '.$table);
+		$rows = [];
+		while ($row = $results->fetchArray()) {
+    		$rows[] = $row;
+		}
+
+		foreach ($rows as $key => $row) {
+			$userData = json_decode($row['UserData']);
+			$userData->Result = 0;
+			$userData->Message = "";
+			$userData = json_encode($userData);
+
+			echo $userData."\n";
+
+			$statement = $db->prepare("update $table set UserData=:UserData where LocalTaskId=:LocalTaskId and LocalSubFileIndex=:LocalSubFileIndex");
+			$statement->bindValue(':UserData',$userData);
+			$statement->bindValue(':LocalTaskId',$row['LocalTaskId']);
+			$statement->bindValue(':LocalSubFileIndex',$row['LocalSubFileIndex']);
+			$statement->execute();
+
+			$statement->close();
+		}
+		$db->close();
+	}
